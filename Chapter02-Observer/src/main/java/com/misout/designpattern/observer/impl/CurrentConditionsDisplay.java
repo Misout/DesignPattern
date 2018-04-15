@@ -8,7 +8,8 @@ import com.misout.designpattern.observer.Subject;
  * @author Misout
  * @date 2018-03-25 13:33:58
  */
-public class CurrentConditionsDisplay implements Observer, DisplayElement {
+public class CurrentConditionsDisplay 
+		implements Observer, DisplayElement {
 	private float temp;
 	private float humidity;
 	private float pressure;
@@ -25,16 +26,19 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	}
 
 	@Override
-	public void update(float temp, float humidity, float pressure) {
+	public void update(float temp, float humidity, 
+				float pressure) {
 		this.temp = temp;
 		this.humidity = humidity;
+		this.pressure = pressure;
 		display();
 	}
 	
 	@Override
 	public void display() {
-		System.out.println("Current conditions: " + temp + "F degrees and " + humidity + "% humidity");
-		
+		System.out.println("Current conditions: " 
+				+ temp + "F degrees and " + humidity 
+				+ "% humidity and " + pressure 
+				+ " pressure");
 	}
-
 }
