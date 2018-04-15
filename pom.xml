@@ -71,5 +71,6 @@
 	<modules>
 		<module>Chapter01</module>
 		<module>Chapter02-Observer</module>
+		<module>Chapter03-Decorator</module>
 	</modules>
 </project>
