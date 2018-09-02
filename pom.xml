@@ -73,5 +73,9 @@
 		<module>Chapter02-Observer</module>
 		<module>Chapter03-Decorator</module>
 		<module>Chapter03-SimpleFactory</module>
-	</modules>
+        <module>Chapter04-FactoryMethod</module>
+        <module>Chapter05-AbstractFactory</module>
+        <module>Chapter06-Singleton</module>
+        <module>Chapter07-Adapter</module>
+    </modules>
 </project>
