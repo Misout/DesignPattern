@@ -77,5 +77,6 @@
         <module>Chapter05-AbstractFactory</module>
         <module>Chapter06-Singleton</module>
         <module>Chapter07-Adapter</module>
+        <module>Chapter08-TemplateMethod</module>
     </modules>
 </project>
