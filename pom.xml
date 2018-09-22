@@ -78,5 +78,6 @@
         <module>Chapter06-Singleton</module>
         <module>Chapter07-Adapter</module>
         <module>Chapter08-TemplateMethod</module>
+        <module>Chapter09-Proxy</module>
     </modules>
 </project>
